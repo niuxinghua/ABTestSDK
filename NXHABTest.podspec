@@ -9,15 +9,8 @@ Pod::Spec.new do |s|
   s.license              = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { 'niuxinghua' => '970626879@qq.com' }
   s.platform             = :ios, '7.0'
-  s.source               = { :git => 'https://github.com/niuxinghua/UserCenter.git', :tag => s.version }
-  s.resource = 'backIcon.bundle'
+  s.source               = { :git => 'https://github.com/niuxinghua/ABTestSDK', :tag => s.version }
 
- s.source_files = 'wechatfile/**/*.{h,m,mm}'
-
-  s.static_framework = true
-
-  s.dependency 'WechatOpenSDK'
-
- s.vendored_frameworks = 'UserCenter.framework'
+ s.source_files = 'source/**/*.{h,m,mm}'
 
 end
