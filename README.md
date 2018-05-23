@@ -19,12 +19,17 @@
 
 
 
-```
-使用某个key是否生效：
+> ```
+> 使用某个key是否生效：
+> 
+> [[ABTestManager sharedInstance] isFeatuerEnable:@"test"] 
+> ```
+>
 
-[[ABTestManager sharedInstance] isFeatuerEnable:@"test"] 
-```
+编辑页面：
+
+[编辑]: http://47.98.179.35	"灰度编辑列表"
 
 
 
-#### TODO:后台页面登录与鉴权，编辑灰度列表功能。。。。初步设想是走一个鉴权，根据权限去拉自己的配置。做一个配置系统，让用户配置自己的灰度key。然后我就不想做了，毕竟就是为了熟悉下redis。
+#### TODO:后台页面登录与鉴权，编辑灰度列表功能。。。。初步设想是走一个鉴权，根据权限去拉自己的配置。
