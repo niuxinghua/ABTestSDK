@@ -11,7 +11,7 @@
 @interface ABTestManager : NSObject
 
 + (instancetype)sharedInstance;
-- (BOOL)isFeatuerEnable:(NSString *)featureKey;
+- (BOOL)isFeatureEnable:(NSString *)featureKey;
 - (void)initFeature;
 @property(readonly,strong)NSMutableDictionary *grayFeatureDic;
 

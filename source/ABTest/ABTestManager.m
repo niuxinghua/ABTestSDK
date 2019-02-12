@@ -72,7 +72,7 @@ static ABTestManager *manager = nil;
     [[NSUserDefaults standardUserDefaults] synchronize];
     return self.grayFeatureDic;
 }
-- (BOOL)isFeatuerEnable:(NSString *)featureKey
+- (BOOL)isFeatureEnable:(NSString *)featureKey
 {
     if (!featureKey.length) {
         return NO;

